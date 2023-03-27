@@ -14,6 +14,7 @@ body {
 }
 
 .centerBox {
+	display: flex;                /*设置为flex布局*/
 	position: absolute;
 	z-index: 1;
 	width: 100%;
@@ -21,13 +22,14 @@ body {
 	color: white;
 }
 .center-list{
-	width: 70%;
-	margin: 0 15%;
+	display: flex;                /*设置为flex布局*/
+	width: 100%;
+	margin: 0 20%;
 	}
 .centerBody{
 	width: 100%;
 	text-align: center;
-	margin-top: 25%;
+	margin-top: 20%;
 }
 .centerBody img{
 	margin: 0 auto;
@@ -35,6 +37,7 @@ body {
 .btn-p{
 	margin-top: 30px;
 	margin-bottom: 30px;
+	display: flex;                /*设置为flex布局*/
 }
 .btn-p a{
 	font-size: clamp(0.875rem, 0.807rem + 0.34vw, 1.063rem);
@@ -42,6 +45,8 @@ body {
 	padding: 8px 20px;
 	border-radius:20px;
   	margin: 0 8px;
+  	width: 100%; 
+ 	height:40%;
 	background: rgba(29, 29, 29, 0.5);
 	border:1px solid rgba(89, 129, 183, 0.2);
 }
