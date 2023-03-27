@@ -40,7 +40,7 @@ body {
 	display: flex;                /*设置为flex布局*/
 }
 .btn-p a{
-	font-size: clamp(0.875rem, 0.807rem + 0.34vw, 1.063rem);
+	font-size: clamp(0.75rem, 0.636rem + 0.57vw, 1.063rem);
 	color: #FFFFFF;
 	padding: 8px 20px;
 	border-radius:20px;
