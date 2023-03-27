@@ -38,6 +38,7 @@ body {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	display: flex;                /*设置为flex布局*/
+	white-space: nowrap
 }
 .btn-p a{
 	font-size: clamp(0.75rem, 0.636rem + 0.57vw, 1.063rem);
