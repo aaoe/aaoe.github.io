@@ -38,7 +38,6 @@ body {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	display: flex;                /*设置为flex布局*/
-	white-space: nowrap
 }
 .btn-p a{
 	font-size: clamp(0.75rem, 0.636rem + 0.57vw, 1.063rem);
@@ -47,6 +46,7 @@ body {
 	border-radius:10px;
   	margin: 0 7px;
   	width: 100%;
+	white-space: nowrap
 	background: rgba(29, 29, 29, 0.5);
 	border:1px solid rgba(89, 129, 183, 0.2);
 }
