@@ -37,7 +37,7 @@ body {
 	margin-bottom: 30px;
 }
 .btn-p a{
-	font-size: 14px;
+	font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
 	color: #FFFFFF;
 	padding: 8px 30px;
 	border-radius:30px;
