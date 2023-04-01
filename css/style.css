@@ -83,3 +83,32 @@ body {
 	    margin: 0 5%;
 	}
 }
+#audio-btn {
+	position: fixed;
+	top: .8rem;
+	right: .8rem;
+	z-index: 10;
+	width: 1.25rem;
+	height: 1.25rem;
+	background: url(../img/logo.png) no-repeat center center;
+	background-size: 100% 100%;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.rotate {
+	animation:rotate-left 2s linear infinite;
+	-webkit-animation:rotate-left 2s linear infinite;
+	-moz-animation:rotate-left 2s linear infinite;
+}
+@keyframes rotate-left {
+	0%{
+		transform:rotate(360deg);
+	}
+	100%{
+		transform:rotate(0);
+	}
+}
