@@ -196,3 +196,27 @@ function draw() {
 
 window.addEventListener("load", setup);
 window.addEventListener("resize", resize);
+
+// 自动播放背景音乐
+function audioAutoPlay(id) {
+	var audio = document.getElementById(id);
+	var play = function () {
+		audio.play();
+	};
+	document.addEventListener("WeixinJSBridgeReady", play, false);
+	document.addEventListener('YixinJSBridgeReady', play, false);
+	play();
+}
+audioAutoPlay('media');
+
+// 开关控制音乐播放
+var audio = $('#media')[0];
+$('#audio-btn').click(function(){
+	if($('#audio-btn').hasClass('rotate')) {
+		$('#audio-btn').removeClass('rotate');
+		audio.pause();
+	}else{
+		$('#audio-btn').addClass('rotate');
+		audio.play();
+	}
+});
