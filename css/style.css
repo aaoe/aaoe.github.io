@@ -73,14 +73,14 @@ body {
 @media screen and (max-width: 950px) {
 	
 	.centerBody{
-		margin-top: 55%;
+		margin-top: 50%;
 	}
 	.centerBody img{
 		width: 100%;
 	}
 	.center-list {
-	    width: 90%;
-	    margin: 0 5%;
+	    width: 100%;
+	    margin: 0 1%;
 	}
 }
 #audio-btn {
